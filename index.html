@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header id='home'>
+        <nav id='nav'>
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="./logo.png" alt="logo" class='logo'>
+                    <button class='nav-toggle'>
+                        <i class='fas fa-bars'></i>
+                    </button>
+                </div>
+
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                          <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="scroll-link">contacts</a>
+                        </li>
+                        <li>
+                          <a href="#projects" class="scroll-link">projects</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <h1>GIANPIERANGELO <br />DE PALMA</h1>
+                <p>
+                    Howdy! <br/>Welcome to my mini portfolio website! 
+For now it's just me, Gianpierangelo De Palma, a full-stack web developer. Striving to become GREAT at his job! Want BIGGER things in life, finds passion in finding CREATIVE solutions, thinks he can expect an EXCITING future.
+<br ><br>
+When not online, Gian can be found in London, trying to stay healthy at the gym and in the kitchen while trying out new cuisines and recipes. Did we also mention he loves sports and all kind of games?
+                </p>
+                <a href="#contacts" class='scroll-link btn btn-white'>Get in touch</a>
+            </div>
+        </div>
+    </header>  
+
+    <section id='contacts' class='section'>
+        <div class="title">
+            <h2>my <span>contacts</span></h2>
+        </div>
+
+        <div class="social_links">
+            <a href="https://www.linkedin.com/in/gian-de-palma-17932b14a/" target="_blank">
+                <span class="fa-stack fa-lg tw combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            
+            <a href="https://github.com/dpgian" target="_blank">
+                <span class="fa-stack fa-lg gh combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+
+            <a href="https://codepen.io/dpgian" target="_blank">
+                <span class="fa-stack fa-lg gt combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fab fa-codepen fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            
+            <a href='mailto:dplgian@gmail.com'>
+                <span class="fa-stack fa-lg mail combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="far fa-envelope fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            
+        </div>
+        
+        <div class="contact-text">
+            <p>
+                I'm Available For Freelance Work! 
+            </p>
+            <p>
+                I'm always open for new projects! If you need my help, have any question or just fancy saying Hi! then get in touch! 
+                <br>
+                I will get back to you as soon as I can.
+            </p>
+        </div>
+
+    </section>
+
+    <section id='projects' class='section'>
+        <div class="title">
+            <h2>my <span>work</span></h2>
+        </div>
+        <div class="wrapper">
+            <article class="card hover line">
+                <img class="project_image" src="https://i.stack.imgur.com/y9DpT.jpg" alt="">
+                <h2 class="project_title">Expy</h2>
+                <p class="project_info">An expiration date manager to help keep track of products shelves Demos</p>
+                <span class='project_tech'> Javascript • React •  MongoDb   •  Express • Node </span>
+                <div class="project_btn-container">
+                    <a href="https://blooming-wildwood-61212.herokuapp.com" target="_blank">
+                        <button class="project_btn light-animated">
+                            Demo
+                        </button>
+                    </a>
+                    <a href="https://github.com/dpgian/Expiry" target="_blank">
+                        <button class="project_btn light-animated">
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </article>
+            <article class="card hover line">
+                <img class="project_image" src="https://i.stack.imgur.com/y9DpT.jpg" alt="">
+                <h2 class="project_title">Twitone</h2>
+                <p class="project_info">A clone of the most popular twitter</p>
+                <span class='project_tech'>Javascript • React • MaterialUI • Firebase</span>
+                <div class="project_btn-container">
+                    <a href="https://twitone.netlify.app" target="_blank">
+                        <button class="project_btn light-animated">
+                            Demo
+                        </button>
+                    </a>
+                    <a href="https://github.com/dpgian/twitter-clone" target="_blank">
+                        <button class="project_btn light-animated">
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </article>
+            <article class="card hover line">
+                <img class="project_image" src="https://i.imgur.com/8I2gsy9.jpeg" alt="">
+                <h2 class="project_title">Calc-Hook-Lator</h2>
+                <p class="project_info">A fiddle of a calculator built with React Hooks</p>
+                <span class='project_tech'>Javascript • React</span>
+                <div class="project_btn-container">
+                    <a href="https://codepen.io/dpgian/pen/pBVdwB" target="_blank">
+                        <button class="project_btn light-animated">
+                            Demo/Code
+                        </button>
+                    </a>
+                </div>
+            </article>
+            <article class="card hover line">
+                <img class="project_image" src="https://i.stack.imgur.com/y9DpT.jpg" alt="">
+                <h2 class="project_title">User Auth</h2>
+                <p class="project_info">An user authentication tool</p>
+                <span class='project_tech'>Javascript • MongoDb • Express • Node • Jwt</span>
+                <div class="project_btn-container">
+                    <a href="https://github.com/dpgian/login" target="_blank">
+                        <button class="project_btn light-animated">
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </article>
+            <article class="card hover line">
+                <img class="project_image" src="https://i.stack.imgur.com/y9DpT.jpg" alt="">
+                <h2 class="project_title">Vanilla Notes</h2>
+                <p class="project_info">A simple CRUD App that keep notes on webpage refresh</p>
+                <span class='project_tech'>Javascript</span>
+                <div class="project_btn-container">
+                    <a href="https://vjs-crud.netlify.app" target="_blank">
+                        <button class="project_btn light-animated">
+                            Demo
+                        </button>
+                    </a>
+                    <a href="https://github.com/dpgian/VanillaJS-CRUD" target="_blank">
+                        <button class="project_btn light-animated">
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class='section'>
+        <p>© Copyright <span id='date'></span> Gianpierangelo De Palma <br> This website was fully built in Vanilla JS.
+    </footer>
+
+    <a href="#home" class='scroll-link top-link'>
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    
+    
+    <script src='index.js'></script>
+</body>
+</html>
